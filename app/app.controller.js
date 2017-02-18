@@ -43,7 +43,7 @@
 			var bijon = function () {
 					var kmlLayer = new google.maps.KmlLayer({
 						url: src,
-						preserveViewport: true
+						//preserveViewport: true
 					});
 					kmlLayer.addListener('click', function (event){
 						console.log('kmlLayer.addListener \t:', event);
